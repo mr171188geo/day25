@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+	font-family: 'Lato', sans-serif;
+    height: 100%;
+    font-size: 10px;
+    margin-top: 40px;
+    /* долго думала на счет этой строчки, правильно так делать или нет.... 
+ */
+}
+html, body {
+    min-height: 90%;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    padding: 10rem;
+    font-size: 1.6rem;
+    line-height: 35px;
+    color: #D3D3D3;
+}
+.view{
+	font-size: 2rem;
+	color: #A2A2A2;
+}
+h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 4.2rem;
+    color: #171717;
+}
+.text:first-letter{
+	font-family: 'Playfair Display', sans-serif;
+	color: #171717;
+    font-size: 8.1rem;
+    display: block;
+    float: left;
+    padding: 0 12px 12px 0;
+}
+.line {
+	font-size: 2.5rem;
+	margin-bottom: 4rem;
+
+}
+.btn {
+	font-size: 1.8rem;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	border: 2px solid #EAA258;
+	color: #EAA258;
+	padding: 2rem 7rem;
+	text-transform: uppercase;
+	opacity: 1;
+}
+.btn:hover,
+.btn:focus{
+	opacity: 0.7;
+}
